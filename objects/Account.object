@@ -229,6 +229,50 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AP__c</fullName>
+        <externalId>false</externalId>
+        <label>AP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Guntur</fullName>
+                    <default>false</default>
+                    <label>Guntur</label>
+                </value>
+                <value>
+                    <fullName>krishna</fullName>
+                    <default>false</default>
+                    <label>krishna</label>
+                </value>
+                <value>
+                    <fullName>prakasam</fullName>
+                    <default>false</default>
+                    <label>prakasam</label>
+                </value>
+                <value>
+                    <fullName>east</fullName>
+                    <default>false</default>
+                    <label>east</label>
+                </value>
+                <value>
+                    <fullName>west</fullName>
+                    <default>false</default>
+                    <label>west</label>
+                </value>
+                <value>
+                    <fullName>kadapa</fullName>
+                    <default>false</default>
+                    <label>kadapa</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -315,6 +359,58 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>TN__c</fullName>
+        <externalId>false</externalId>
+        <label>TN</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>AP__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>warangal</fullName>
+                    <default>false</default>
+                    <label>warangal</label>
+                </value>
+                <value>
+                    <fullName>nizamabad</fullName>
+                    <default>false</default>
+                    <label>nizamabad</label>
+                </value>
+                <value>
+                    <fullName>karimnagar</fullName>
+                    <default>false</default>
+                    <label>karimnagar</label>
+                </value>
+                <value>
+                    <fullName>gadval</fullName>
+                    <default>false</default>
+                    <label>gadval</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Guntur</controllingFieldValue>
+                <valueName>warangal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Guntur</controllingFieldValue>
+                <controllingFieldValue>krishna</controllingFieldValue>
+                <valueName>nizamabad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>prakasam</controllingFieldValue>
+                <valueName>karimnagar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>prakasam</controllingFieldValue>
+                <valueName>gadval</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
