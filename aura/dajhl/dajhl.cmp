@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <!-- Attribute Declaration -->
+    <aura:attribute name="message" type="String" default="Hello, World!" />
+
+    <!-- Handler for the button click event -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <!-- UI Components -->
+    <div>
+        <ui:outputText value="{!v.message}" />
+        <ui:button label="Change Message" press="{!c.changeMessage}" />
+    </div>
+</aura:component>
