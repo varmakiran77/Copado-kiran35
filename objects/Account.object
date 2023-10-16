@@ -408,6 +408,14 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
