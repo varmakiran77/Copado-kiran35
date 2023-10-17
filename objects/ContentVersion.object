@@ -34,6 +34,16 @@
         <fullName>ContentSize</fullName>
     </fields>
     <fields>
+        <fullName>Content_Version_Five__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Five</label>
+        <length>26</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Content_Version_Four__c</fullName>
         <externalId>false</externalId>
         <label>Content Version Four</label>
