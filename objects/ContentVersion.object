@@ -34,6 +34,16 @@
         <fullName>ContentSize</fullName>
     </fields>
     <fields>
+        <fullName>Content_Version_Two__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Two</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
