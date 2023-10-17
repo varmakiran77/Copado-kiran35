@@ -130,6 +130,13 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>CR_Two__c</fullName>
+        <externalId>false</externalId>
+        <label>CR Two</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
