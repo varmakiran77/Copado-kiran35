@@ -45,6 +45,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Content_Version_Three__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Three</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Content_Version_Two__c</fullName>
         <externalId>false</externalId>
         <label>Content Version Two</label>
