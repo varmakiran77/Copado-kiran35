@@ -130,6 +130,15 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>CR_Three__c</fullName>
+        <externalId>false</externalId>
+        <label>CR Three</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
