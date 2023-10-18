@@ -34,6 +34,56 @@
         <fullName>ContentSize</fullName>
     </fields>
     <fields>
+        <fullName>Content_Version_Five__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Five</label>
+        <length>26</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Content_Version_Four__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Four</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Content_Version_One__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version One</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Content_Version_Three__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Three</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Content_Version_Two__c</fullName>
+        <externalId>false</externalId>
+        <label>Content Version Two</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
