@@ -49,6 +49,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>AllowObjectDetectionTraining</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>AllowUniversalSearch</name>
     </userPermissions>
     <userPermissions>
