@@ -21,6 +21,9 @@
         <fullName>AgentCapacityWhenDeclined</fullName>
     </fields>
     <fields>
+        <fullName>AgentIntCapacityWhenDeclined</fullName>
+    </fields>
+    <fields>
         <fullName>CancelDateTime</fullName>
     </fields>
     <fields>
@@ -61,6 +64,9 @@
     </fields>
     <fields>
         <fullName>IsFlagged</fullName>
+    </fields>
+    <fields>
+        <fullName>IsInterruptible</fullName>
     </fields>
     <fields>
         <fullName>IsPreferredUserRequired</fullName>
