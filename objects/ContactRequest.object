@@ -130,6 +130,15 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>CR_Four__c</fullName>
+        <externalId>false</externalId>
+        <label>CR Four</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>CR_One__c</fullName>
         <externalId>false</externalId>
         <label>CR One</label>
